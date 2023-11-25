@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Computer Science Department Catalog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    
+    .category {
+      margin-top: 50px;
+    }
+    
+    .category h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #555;
+    }
+    
+    .item {
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #f5f5f5;
+      border-radius: 5px;
+    }
+    
+    .item h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+      color: #333;
+    }
+    
+    .item p {
+      margin: 0;
+      color: #777;
+    }
+
+    .last_grid{
+            display: grid;
+            background-color: chocolate;
+            column-gap: 50px;
+            grid-template-columns: auto auto  ;
+            padding-left: 100px;
+        }
+        .last{
+            padding: 20px;
+            font-size: 18px;
+        }
+        .inner_grid{
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 10px;
+
+        }
+
+  </style>
+</head>
+<body>
+    <img src="cs-dep.png" alt="">
+  <h1>Computer Science Department Catalog</h1>
+  
+  <div class="category">
+    <h2>Courses</h2>
+    <div class="item">
+      <h3>Introduction to Computer Science</h3>
+      <p>An introductory course covering the basics of computer programming and problem-solving.</p>
+    </div>
+    <div class="item">
+      <h3>Data Structures and Algorithms</h3>
+      <p>A course focusing on fundamental data structures and algorithms used in computer science.</p>
+    </div>
+    <div class="item">
+        <h3>Database Management Systems</h3>
+        <p>A course exploring the design and management of relational database systems.</p>
+    </div>
+    <div class="item">
+        <h3>Artificial Intelligence</h3>
+        <p>A course delving into the principles and techniques of artificial intelligence.</p>
+    </div>
+    <div class="item">
+        <h3>Computer Networks</h3>
+        <p>A course covering the fundamentals of computer networks and network protocols.</p>
+    </div>
+  </div>
+  
+  <div class="category">
+    <h2>Facilities</h2>
+    <div class="item">
+      <h3>Computer Labs</h3>
+      <p>State-of-the-art computer labs equipped with the latest hardware and software for hands-on practical learning.</p>
+    </div>
+    <div class="item">
+      <h3>Research Labs</h3>
+      <p>Dedicated research labs equipped with specialized equipment and resources to support ongoing research projects.</p>
+    </div>
+    <div class="item">
+      <h3>Library</h3>
+      <p>A comprehensive library with an extensive collection of books, journals, and online resources related to computer science and technology.</p>
+    </div>
+  
+  <div class="category">
+    <h2>Research</h2>
+    <div class="item">
+      <h3>Machine Learning Lab</h3>
+      <p>Research group focused on machine learning and artificial intelligence.</p>
+    </div>
+    <div class="item">
+      <h3>Networking and Security Lab</h3>
+      <p>Research group dedicated to studying network protocols and cybersecurity.</p>
+    </div>
+    <div class="item">
+        <h3>Cybersecurity and Network Security</h3>
+        <p>Research group focused on studying and developing security measures to protect computer systems, networks, and data from cyber threats and attacks.</p>
+      </div>
+      <div class="item">
+        <h3>Data Science and Big Data Analytics</h3>
+        <p>Research group dedicated to analyzing large-scale datasets and extracting valuable insights using data science methodologies and big data analytics tools.</p>
+      </div>
+  </div>
+  
+  <div class="category">
+    <h2>Events</h2>
+    <div class="item">
+      <h3>Guest Lectures</h3>
+      <p>Invited talks and presentations by renowned experts and industry professionals on various topics within computer science.</p>
+    </div>
+    <div class="item">
+      <h3>Hackathons</h3>
+      <p>Engaging coding competitions and collaborative problem-solving events to encourage creativity and innovation.</p>
+    </div>
+    <div class="item">
+      <h3>Workshops</h3>
+      <p>Hands-on workshops and training sessions on emerging technologies and practical skills relevant to computer science.</p>
+    </div>
+
+    <div class="last_grid">
+        <div class="last"> 
+            <div  style="font-size: 30px;">NEWSLETTER </div><br> 
+            <div>Stay updated with our lastest</div><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>  <br>
+            <div>
+                <button>GO</button>
+            </div>
+        </div>
+
+        <div class="last"> 
+            <div  style="font-size: 30px;">CONTACT US</div>  <br>
+            <div class="inner_grid">
+                <div class="inner">
+                    <div  style="font-size: 30px;">Phone & Email</div><br>
+                    <div>+233 501 382 035</div>
+                    <div>+233 559 145 698</div><br>
+                    <div>dcs@ug.edu.gh</div>
+                </div>
+                <div class="inner">
+                    <div style="font-size: 30px;">Location</div>
+                    <div>University of Ghana, Legon</div>
+                    <div>Campus</div><br>
+                    <div>Opposite Mathematics Department</div>
+                </div>
+            </div>  
+        </div>
+    </div>
+  
+</body>
+</html>
