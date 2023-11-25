@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>UG|Computer Science</title>
+    <style>
+        .nav{
+            display: grid;
+            grid-template-columns: auto auto auto;
+           padding: 20px;
+            column-gap: 100px;
+        }
+        .nav_name{
+            padding: 10px;
+           
+        }
+        .nav_images{
+            height: 100px;
+            
+        }
+        .item_grid{
+            background-color: chocolate;
+            height: 30px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            padding-left: 100px;
+        }
+        .grid_box{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+           padding: 20px;
+            column-gap: 100px; 
+        }
+        .box{
+            border: 2px solid chocolate;
+            padding: 20px;
+            font-size: 18px;
+        }
+        .image_box{
+            padding: 20px;
+            font-size: 18px;
+        }
+        #student{
+            height: 850px;
+            border-radius: 425px;
+        }
+        #event{
+            height: 250px;
+            padding: 20px;
+        }
+        .last_grid{
+            display: grid;
+            background-color: chocolate;
+            column-gap: 50px;
+            grid-template-columns: auto auto  ;
+            padding-left: 100px;
+        }
+        .last{
+            padding: 20px;
+            font-size: 18px;
+        }
+        .inner_grid{
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="nav_name">
+            <img class ="nav_images" src="logo.png" alt="">
+            </div>
+        <div class="nav_name">
+            <img class="nav_images" src="design.jpg" alt="">
+        </div>
+        <div class="nav_name" style="padding: 50px; background-color: chocolate;"> <a href="catalogue.html">CATALOGUE</a></div>
+    </div>
+
+     <br> 
+         <div class="item_grid">
+            <div class="item"> <a href="homepage.html">HOME</a> </div>
+            <div class="item"> <a href="about.html">ABOUT US</a> </div>
+            <div class="item"> <a href="contact.html">CONTACT US</a></div>
+            <div class="item"> <a href="admission.html">ADMISSION</a></div>
+        </div>
+        <br>
+
+        <div class="grid_box">
+            <div class="box" style="background-color:wheat;"> 
+                <div style="background-color: chocolate;">SHORT COURSES</div><br>
+                <div> Intensive certificate courses designed for anyone, anywhere and anytime</div><br>
+                <div><a href="academic.html">Learn More</a></div>
+            </div>
+            <div class="box"  style="background-color:wheat;">
+                <div  style="background-color: chocolate;">UNDERGRADUATE PROGRAMMES</div><br>
+                <div>Want to have a technology career? Our undergraduate courses are your prefered choice. </div><br>
+                <div><a href="academic.html">Learn More</a></div>
+            </div>
+            <div class="box"  style="background-color:wheat;">
+                <div  style="background-color: chocolate;">PhD PROGRAMMES</div><br>
+                <div>PhDs that extend the limits of Knowledge through quality researchs.</div><br>
+                <div><a href="academic.html">Learn More</a></div>  
+            </div>
+            <div class="image_box"> 
+                <img src="cs-dep.png" alt="">    
+            </div>
+        </div>
+
+        <img id="student" src="students.jpg" alt="">
+        <br><br><br>
+
+    <table align="center">
+        <tr>
+            <td>
+                <img id="event" src="event.jpg" alt="An event image">
+            </td>
+            <td>
+                <a href="event.html">View both ongoing and <br> upcoming events</a>
+            </td>
+        </tr>
+    </table>
+    <br><br><br>
+         
+    <div class="last_grid">
+        <div class="last"> 
+            <div  style="font-size: 30px;">NEWSLETTER </div><br> 
+            <div>Stay updated with our lastest</div><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>  <br>
+            <div>
+                <button>GO</button>
+            </div>
+        </div>
+
+        <div class="last"> 
+            <div  style="font-size: 30px;">CONTACT US</div>  <br>
+            <div class="inner_grid">
+                <div class="inner">
+                    <div  style="font-size: 30px;">Phone & Email</div><br>
+                    <div>+233 501 382 035</div>
+                    <div>+233 559 145 698</div><br>
+                    <div>dcs@ug.edu.gh</div>
+                </div>
+                <div class="inner">
+                    <div style="font-size: 30px;">Location</div>
+                    <div>University of Ghana, Legon</div>
+                    <div>Campus</div><br>
+                    <div>Opposite Mathematics Department</div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+
+</body>
+</html>
