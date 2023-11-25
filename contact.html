@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <style>
+
+        .link-grid{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            background-color: dimgray;
+            padding: 10px;
+        }
+
+        .contact_image_grid{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+       
+        .contact-image{
+            height: 550px;
+           
+        }
+
+        .contact-grid{
+            display: grid;
+            background-color: brown;
+            padding: 100px;
+            text-align: center;
+            font-size: 50px;
+            
+        }
+
+        .info-grid{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 20px;
+            padding: 10px;
+        }
+
+
+        .last_grid{
+            display: grid;
+            background-color: chocolate;
+            column-gap: 50px;
+            grid-template-columns: auto auto  ;
+            padding-left: 100px;
+        }
+        .last{
+            padding: 20px;
+            font-size: 18px;
+        }
+        .inner_grid{
+            display: grid;
+            grid-template-columns: auto auto;
+            column-gap: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <img src="logo.png" alt="University logo">
+
+    <div class="link-grid">
+        <div class="link"><a href="homepage.html">HOME</a></div>
+        <div class="link"><a href="about.html">ABOUT</a></div>
+        <div class="link"><a href="admission.html">ADMISSION</a></div>
+        <div class="link"><a href="student-project.html">Student Project</a></div>
+    </div><br>
+
+    <div class="contact-grid">
+        CONTACT US
+    </div> <br> 
+
+    <div class="contact_image_grid">
+        <div class="image_grid">
+            <img class="contact-image" src="contact.jpg" alt="">
+        </div>
+     
+    <div class="image_grid">
+        <img class="contact-image" src="phone.jpg" alt="">
+    </div> 
+    </div>
+
+    <div class="info-grid">
+
+        <div class="info">
+            <div  style="font-size: 20px;">University of Ghana</div>
+            <div>Opposite Mathematics Department</div><br>
+            <div  style="font-size: 20px;">Telephone Number</div>
+            <div>+233 501 382 035</div><br>
+            <div  style="font-size: 20px;">Email</div>
+            <div>dcs@ug.edu.gh</div>
+        </div>
+
+        <div class="info">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" style="padding: 20px;"><br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" style="padding: 20px;">
+        </div>
+       
+        <div class="info">
+           <div> <label for="message">Message</label><br>
+            <input type="text" id="text" name="message" placeholder="Enter your Message" style="padding: 50px;">
+           </div>
+           <div><button>Submit</button></div>
+        </div>
+    </div>
+
+    <div class="last_grid">
+        <div class="last"> 
+            <div  style="font-size: 30px;">NEWSLETTER </div><br> 
+            <div>Stay updated with our lastest</div><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>  <br>
+            <div>
+                <button>GO</button>
+            </div>
+        </div>
+
+        <div class="last"> 
+            <div  style="font-size: 30px;">CONTACT US</div>  <br>
+            <div class="inner_grid">
+                <div class="inner">
+                    <div  style="font-size: 30px;">Phone & Email</div><br>
+                    <div>+233 501 382 035</div>
+                    <div>+233 559 145 698</div><br>
+                    <div>dcs@ug.edu.gh</div>
+                </div>
+                <div class="inner">
+                    <div style="font-size: 30px;">Location</div>
+                    <div>University of Ghana, Legon</div>
+                    <div>Campus</div><br>
+                    <div>Opposite Mathematics Department</div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+
+</body>
+</html>
