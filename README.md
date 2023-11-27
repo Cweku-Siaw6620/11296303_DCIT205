@@ -3,12 +3,22 @@
 Name: Ashong Kelvin Kweku Siaw
 ID: 11296303
 
+# Introduction 
 Welcome to the Computer Science Department Website! This website is made up of key features such as the Faculty, how to contact the department,
 events; both past and upcoming, how to get admission into the university and many more. It also gives a brief clone of the academic calendar of
 the department. 
 Whether you are interested in pursuing a degree or conducting researches our department is committed in helping you do so. This website gives people
 the chance to know about the department. It also gives people access to resources designed to support your ambitions and also provides people with an
 option to contact the department if there are any confusions or enquiries to be made.
+
+# How to clone and setup the project
+1.Move to the original repository, and click the green "Code" button to get the URL to clone.
+2.Open your Git bash and type git clone "URL" to clone the repository
+3. Initialize git on the folder.
+4. Add all changes made to your website using the command git add --all.
+5. Commit the changes.
+6. Push the changes to your remote repository.
+7. Raise a pull request to merge the two branches.
 
 ![](screenshot/homepage.png)
 ![](screenshot/homepage.contd.png)
